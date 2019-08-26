@@ -6,10 +6,8 @@ Blockly.Blocks['hall_magnetic_block'] = {
         .setCheck("Number")
         .appendField("SENSOR PIN");
     this.setInputsInline(true);
-    this.setPreviousStatement(true, null);
-    this.setNextStatement(true, null);
+    this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("");
  this.setHelpUrl("");
   }
-};
